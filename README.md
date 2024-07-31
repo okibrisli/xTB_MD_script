@@ -1,6 +1,27 @@
 # xTB Molecular Dynamics and Optimization Scripts
 
-This repository contains scripts for running geometry optimizations and molecular dynamics (MD) simulations using the xTB methods (`GFN1-xTB` and `GFN2-xTB`). The scripts are designed to handle periodic boundary conditions (PBC) and can be executed with various optimization and MD parameters.
+# xTB Molecular Dynamics and Optimization Scripts
+
+This repository contains Python scripts for performing geometry optimizations and molecular dynamics (MD) simulations using the xTB semi-empirical quantum chemistry methods (`GFN1-xTB` and `GFN2-xTB`). These scripts utilize the Atomic Simulation Environment (ASE) to set up, run, and analyze simulations. The methods can handle both isolated molecules and periodic boundary conditions (PBC), making them suitable for a wide range of computational chemistry tasks.
+
+## Dependencies
+
+To run these scripts, you need to have the following dependencies installed:
+
+- Python 3.6+
+- ASE (Atomic Simulation Environment)
+- tblite
+- numpy
+- argparse
+
+## Installation
+
+You can install these dependencies using the following commands:
+
+```bash
+pip install numpy
+pip install ase
+pip install tblite
 
 ## Dependencies
 
@@ -24,13 +45,14 @@ pip install tblite
 ## Usage
 The main script is main.py, which you can use to run either geometry optimization or molecular dynamics simulations.
 
-Running Geometry Optimization
+
 To run a geometry optimization, use the --task opt option. Below is an example command:
 ```
 python main.py --task opt --structure your_structure_file.xyz --method GFN1-xTB --fmax 0.15 --steps 5000 --maxstep 0.05 --scf_accuracy 1e-6 --mixer_damping 0.4 --charge 0 --multiplicity 1 --optimizer FIRE
 ```
 
-Running Molecular Dynamics Simulation
+
+
 To run a molecular dynamics simulation, use the --task md option. Below is an example command:
 
 ```
