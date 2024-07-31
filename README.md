@@ -22,7 +22,7 @@ You can install these dependencies using the following commands:
 pip install numpy
 pip install ase
 pip install tblite
-
+```
 ## Dependencies
 
 To run these scripts, you need to have the following dependencies installed:
