@@ -15,32 +15,15 @@ To run these scripts, you need to have the following dependencies installed:
 
 ## Installation
 
-You can install these dependencies using the following commands:
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/okibrisli/xTB_MD_script
+   
+2. **Install required Python packages**:
+   ```bash
+   pip install ase
+   ...
 
-```bash
-pip install numpy
-pip install ase
-pip install tblite
-```
-## Dependencies
-
-To run these scripts, you need to have the following dependencies installed:
-
-- Python 3.6+
-- ASE (Atomic Simulation Environment)
-- tblite
-- numpy
-- argparse
-
-## Installation
-You can install these dependencies using the following commands:
-
-```
-pip install numpy
-pip install ase
-pip install tblite
-...
-```
 ## Usage
 The main script is main.py, which you can use to run either geometry optimization or molecular dynamics simulations.
 
