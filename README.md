@@ -1,6 +1,5 @@
 # xTB Molecular Dynamics and Optimization Scripts
 
-# xTB Molecular Dynamics and Optimization Scripts
 
 This repository contains Python scripts for performing geometry optimizations and molecular dynamics (MD) simulations using the xTB semi-empirical quantum chemistry methods (`GFN1-xTB` and `GFN2-xTB`). These scripts utilize the Atomic Simulation Environment (ASE) to set up, run, and analyze simulations. The methods can handle both isolated molecules and periodic boundary conditions (PBC), making them suitable for a wide range of computational chemistry tasks.
 
